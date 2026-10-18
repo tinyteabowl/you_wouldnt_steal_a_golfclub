@@ -6,6 +6,8 @@ public class GolfClubHit : MonoBehaviour
     [SerializeField] private float liftForce = 1.5f;
     [SerializeField] private GolfBallTeleport teleportSystem;
 
+    [SerializeField] private AudioSource audioSource;
+
     private Vector3 previousPosition;
     private Vector3 clubVelocity;
 
@@ -30,6 +32,8 @@ public class GolfClubHit : MonoBehaviour
         Rigidbody ballRb = collision.gameObject.GetComponent<Rigidbody>();
         GolfBallPhysics ballPhysics =
             collision.gameObject.GetComponent<GolfBallPhysics>();
+
+        audioSource.Play();
 
         if (ballRb == null || ballPhysics == null)
             return;
