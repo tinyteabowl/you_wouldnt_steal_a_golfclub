@@ -6,6 +6,7 @@ public class GolfBallPhysics : MonoBehaviour
     private bool hasLanded = false;
     private bool hasBeenHit = false;
     private RigidbodyConstraints normalConstraints;
+
     public bool HasLanded => hasLanded;
     public bool HasBeenHit => hasBeenHit;
 

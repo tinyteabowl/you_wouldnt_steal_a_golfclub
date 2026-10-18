@@ -1,30 +1,74 @@
-/*
- Set it up:
-1. Select a laser or hazard object.
-2. Add a Collider if it doesn't already have one.
-3. Enable Is Trigger on that collider.
-4. Add the HazardReset script to the hazard.
-5. Drag your XR Origin into the Xr Origin field.
-6. Drag Reset into the Starting Spawn field.
- */
+using System.Collections;
 using UnityEngine;
 
-public class Reset : MonoBehaviour
+public class PlayerResetOnTouch : MonoBehaviour
 {
-    [SerializeField] private Transform xrOrigin;
-    [SerializeField] private Transform startingSpawn;
+    public Transform player;
+    public Transform golfBall;
+    public Transform golfClub;
+    public VRScreenFade screenFade;
+
+    private bool resetting = false;
+
+    private Vector3 playerPosition = new Vector3(
+        -565.929993f, 5.69999981f, -282.670013f
+    );
+
+    private Vector3 golfBallPosition = new Vector3(
+        -565.995972f, 6.23000002f, -285.946014f
+    );
+
+    private Vector3 golfClubPosition = new Vector3(
+        -566.359985f, 6.75f, -285.040009f
+    );
 
     private void OnTriggerEnter(Collider other)
     {
-        // Checks whether the object entering is part of the VR player.
-        if (xrOrigin == null || startingSpawn == null)
-            return;
+        Debug.Log("Security trigger touched by: " + other.name);
 
-        if (other.transform == xrOrigin ||
-            other.transform.IsChildOf(xrOrigin))
+        bool isPlayer =
+            other.CompareTag("Player") ||
+            other.GetComponent<CharacterController>() != null ||
+            other.GetComponentInParent<CharacterController>() != null;
+
+        if (isPlayer && !resetting)
         {
-            // Returns the player to the starting position.
-            xrOrigin.position = startingSpawn.position;
+            StartCoroutine(ResetObjects());
         }
+    }
+
+
+    private IEnumerator ResetObjects()
+    {
+        resetting = true;
+
+        if (screenFade != null)
+            yield return screenFade.FadeOut();
+
+        CharacterController controller =
+            player.GetComponent<CharacterController>();
+
+        if (controller != null)
+            controller.enabled = false;
+
+        player.position = playerPosition;
+        golfBall.position = golfBallPosition;
+        golfClub.position = golfClubPosition;
+
+        Rigidbody ballRigidbody = golfBall.GetComponent<Rigidbody>();
+
+        if (ballRigidbody != null)
+        {
+            ballRigidbody.linearVelocity = Vector3.zero;
+            ballRigidbody.angularVelocity = Vector3.zero;
+        }
+
+        if (controller != null)
+            controller.enabled = true;
+
+        if (screenFade != null)
+            yield return screenFade.FadeIn();
+
+        resetting = false;
     }
 }

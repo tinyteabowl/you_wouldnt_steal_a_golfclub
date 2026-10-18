@@ -79,6 +79,8 @@ public class GolfBallTeleport : MonoBehaviour
             );
 
             xrOrigin.position += movement;
+
+            xrOrigin.Rotate(0f, 90f, 0f);
         }
         else
         {
