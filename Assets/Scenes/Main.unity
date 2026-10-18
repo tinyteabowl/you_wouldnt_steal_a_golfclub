@@ -747,6 +747,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 791981019}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 791981020}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &25450763 stripped
 GameObject:
@@ -1736,6 +1739,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1262058099}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1262058100}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &122079443
 PrefabInstance:
@@ -3086,6 +3092,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 971268920}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971268921}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &197484924 stripped
 GameObject:
@@ -4004,6 +4013,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2072843149}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2072843150}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &258155077
 PrefabInstance:
@@ -4758,6 +4770,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1469994077}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1469994078}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &328147547
 PrefabInstance:
@@ -4943,6 +4958,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &341502940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341502935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1001 &343472927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6907,6 +6938,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6361354837151281007, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2932908937296398126, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1478815219034026005, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299260955530873103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       propertyPath: m_Name
       value: lazer_test
@@ -6973,6 +7024,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1344368739}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1344368740}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &466418228
 PrefabInstance:
@@ -8189,6 +8243,22 @@ CapsuleCollider:
   m_Height: 4.154913
   m_Direction: 1
   m_Center: {x: -0.000004194679, y: -0.5408569, z: -0.0012896591}
+--- !u!114 &565835631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565835626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1001 &569288298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9204,6 +9274,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 341502939}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 341502940}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &659454619
 PrefabInstance:
@@ -9594,6 +9667,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1937014272}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1937014273}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &695954240 stripped
 GameObject:
@@ -11166,6 +11242,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1463680635}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463680636}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &786651460
 PrefabInstance:
@@ -11354,6 +11433,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &791981020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791981015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &793760178
 GameObject:
   m_ObjectHideFlags: 0
@@ -11821,6 +11916,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1718886014}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1718886015}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &816685109
 PrefabInstance:
@@ -12311,6 +12409,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 565835630}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 565835631}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &877493166 stripped
 GameObject:
@@ -13606,6 +13707,22 @@ CapsuleCollider:
   m_Height: 4.154913
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.5408874, z: -0.0012896591}
+--- !u!114 &971268921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971268916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &979360698
 GameObject:
   m_ObjectHideFlags: 0
@@ -13964,6 +14081,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &1003231435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003231430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1006369151
 GameObject:
   m_ObjectHideFlags: 0
@@ -14501,6 +14634,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0014117295}
+--- !u!114 &1054891511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054891506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1001 &1059033740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15088,6 +15237,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &1101635457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101635452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1104738135
 GameObject:
   m_ObjectHideFlags: 0
@@ -17431,6 +17596,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1054891510}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1054891511}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &1225472458
 GameObject:
@@ -17935,6 +18103,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &1262058100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262058095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1262628172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4354551440339707519, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
@@ -19415,6 +19599,22 @@ CapsuleCollider:
   m_Height: 4.154913
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.5408874, z: -0.0012896591}
+--- !u!114 &1344368740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344368735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1344642618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
@@ -20682,6 +20882,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &1463680636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463680631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1001 &1467837821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20877,6 +21093,22 @@ CapsuleCollider:
   m_Height: 4.154913
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.5408874, z: -0.0012896591}
+--- !u!114 &1469994078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469994073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1484048764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8128668236925612103, guid: 27a9fd54b60289049a439e272e101490, type: 3}
@@ -22721,6 +22953,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1003231434}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1003231435}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &1681713738
 GameObject:
@@ -23217,6 +23452,22 @@ CapsuleCollider:
   m_Height: 4.154913
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.5408874, z: -0.0012896591}
+--- !u!114 &1718886015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718886010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1719845428
 GameObject:
   m_ObjectHideFlags: 0
@@ -25091,6 +25342,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1101635456}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1101635457}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1001 &1863380563
 PrefabInstance:
@@ -25356,6 +25610,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2038835111}
+    - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038835112}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
 --- !u!1 &1886162061
 GameObject:
@@ -26378,6 +26635,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &1937014273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937014268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1001 &1946235955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26522,7 +26795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3306547910404571556, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 39.07
       objectReference: {fileID: 0}
     - target: {fileID: 3306547910404571556, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26558,7 +26831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3306547911124415962, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 35.73
       objectReference: {fileID: 0}
     - target: {fileID: 3306547911124415962, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26586,7 +26859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3306547911399279661, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 61.4
       objectReference: {fileID: 0}
     - target: {fileID: 3306547911399279661, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26626,7 +26899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6275444209729742767, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 32.34
       objectReference: {fileID: 0}
     - target: {fileID: 6275444209729742767, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26662,7 +26935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6275444210220008934, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 34.8
       objectReference: {fileID: 0}
     - target: {fileID: 6275444210220008934, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26682,7 +26955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6275444210730533671, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 61.4
       objectReference: {fileID: 0}
     - target: {fileID: 6275444210730533671, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26710,7 +26983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6275444211320949614, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 35.73
       objectReference: {fileID: 0}
     - target: {fileID: 6275444211320949614, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -27995,6 +28268,22 @@ CapsuleCollider:
   m_Height: 4.154913
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.5408874, z: -0.0012896591}
+--- !u!114 &2038835112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038835107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1001 &2039683310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28263,6 +28552,22 @@ CapsuleCollider:
   m_Height: 4.154914
   m_Direction: 1
   m_Center: {x: -0.0000022873305, y: -0.54088753, z: -0.0012896592}
+--- !u!114 &2072843150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072843145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &2087058104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8128668236925612103, guid: 27a9fd54b60289049a439e272e101490, type: 3}
