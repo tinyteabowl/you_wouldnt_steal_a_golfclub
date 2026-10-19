@@ -5,6 +5,7 @@ public class GolfClubHit : MonoBehaviour
     [SerializeField] private float hitForce = 5f;
     [SerializeField] private float liftForce = 1.5f;
     [SerializeField] private GolfBallTeleport teleportSystem;
+    [SerializeField] private AudioSource audioSource;
 
     private Vector3 previousPosition;
     private Vector3 clubVelocity;
@@ -50,5 +51,6 @@ public class GolfClubHit : MonoBehaviour
             .normalized;
 
         ballRb.AddForce(hitDirection * hitForce, ForceMode.Impulse);
+        audioSource.Play();
     }
 }
