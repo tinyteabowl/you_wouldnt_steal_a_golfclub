@@ -1996,6 +1996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carpet_iranian (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.07
@@ -13405,6 +13409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carpet_iranian (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.050000012
@@ -20790,6 +20798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carpet_iranian (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49999973
@@ -21088,6 +21100,10 @@ PrefabInstance:
     - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_Name
       value: carpet_iranian (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
@@ -23970,6 +23986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carpet_iranian (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: -6323237651678140176, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalPosition.y
       value: 17.8
@@ -26628,6 +26648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carpet_iranian (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.07
@@ -29086,15 +29110,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2014844214437698480, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -566.66
+      value: -565.701
       objectReference: {fileID: 0}
     - target: {fileID: 2014844214437698480, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7
+      value: 5.64
       objectReference: {fileID: 0}
     - target: {fileID: 2014844214437698480, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -298.5
+      value: -282.262
       objectReference: {fileID: 0}
     - target: {fileID: 2014844214437698480, guid: 704c3b1c33dfe2849bd663b33794751a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29732,6 +29756,10 @@ PrefabInstance:
     - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_Name
       value: carpet_iranian
+      objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
@@ -31005,6 +31033,10 @@ PrefabInstance:
     - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_Name
       value: carpet_iranian (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: ff2d0c592e2451346b78e2f55316fae8, type: 3}
       propertyPath: m_LocalScale.x
