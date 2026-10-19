@@ -744,6 +744,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1656712650}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1079627006}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1079627005}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 791981019}
@@ -1736,6 +1742,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1123430522}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026327192}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026327191}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1262058099}
@@ -3089,6 +3101,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1239059052}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2145166844}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2145166843}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 971268920}
@@ -4010,6 +4028,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 112046518}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 292221935}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 292221934}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2072843149}
@@ -4208,6 +4232,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1920817991915665654, guid: 01e7e1ac7131ef945bf3a078fe29d257, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9875a245ac49007498213638a307faa1, type: 2}
     - target: {fileID: 3539646925130417431, guid: 01e7e1ac7131ef945bf3a078fe29d257, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -4378,6 +4406,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7384089578001317296, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
+--- !u!1 &292221930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 257263773}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &292221934
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292221930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.00038321342}
+--- !u!114 &292221935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292221930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &302211374 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3734728065153923281, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
@@ -4767,6 +4839,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1915142603}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651454366}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651454365}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1469994077}
@@ -5297,6 +5375,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7181570590503365068, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
+--- !u!1 &359145118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 1218802026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &359145122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359145118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &359145123
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359145118}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.0002611431}
 --- !u!1001 &361138002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6689,6 +6811,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4086986811941557527, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
+--- !u!1 &440130278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 1885042754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &440130282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440130278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &440130283
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440130278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979505
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597027, z: 0.0003832134}
 --- !u!1 &444767056
 GameObject:
   m_ObjectHideFlags: 0
@@ -7021,6 +7187,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 39794921}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940086987}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940086986}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1344368739}
@@ -9664,6 +9836,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 895840978}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1275891329}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1275891328}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1937014272}
@@ -11239,6 +11417,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1215076542}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1617929407}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1617929406}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1463680635}
@@ -11850,6 +12034,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2932908937296398126, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       propertyPath: m_Name
       value: lazer_test (11)
@@ -11913,6 +12101,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1028911443}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1933851995}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1933851994}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1718886014}
@@ -12406,6 +12600,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1344642621}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1367936711}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1367936710}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 565835630}
@@ -14469,6 +14669,50 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1985275799}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: 27a9fd54b60289049a439e272e101490, type: 3}
+--- !u!1 &1026327187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 122022897}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1026327191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026327187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &1026327192
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026327187}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.00038321342}
 --- !u!1 &1028911440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
@@ -15058,6 +15302,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4787736850314580530, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
+--- !u!1 &1079627001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 25142249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1079627005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079627001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &1079627006
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079627001}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.00038321342}
 --- !u!1001 &1093457890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17593,6 +17881,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 197484927}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 359145123}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 359145122}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1054891510}
@@ -18518,6 +18812,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1006369152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1275891324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 692969298}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1275891328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275891324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &1275891329
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275891324}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.00038321342}
 --- !u!1001 &1277519263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19893,6 +20231,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360605748}
   m_Mesh: {fileID: -7745125141852784594, guid: 7fae3720131558b448f0da17582c143e, type: 3}
+--- !u!1 &1367936706 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 876213116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1367936710
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367936706}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979505
+  m_Direction: 1
+  m_Center: {x: -0.0037997984, y: -0.5596722, z: 0.0003832134}
+--- !u!114 &1367936711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367936706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1375918053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 986803618353321637, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
@@ -21109,6 +21491,50 @@ MonoBehaviour:
   golfBall: {fileID: 598952615}
   golfClub: {fileID: 1097744605}
   screenFade: {fileID: 933285301}
+--- !u!1 &1482715983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 1856853655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1482715987
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482715983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.00038321342}
+--- !u!114 &1482715988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482715983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1484048764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8128668236925612103, guid: 27a9fd54b60289049a439e272e101490, type: 3}
@@ -21998,6 +22424,50 @@ MonoBehaviour:
   golfBall: {fileID: 598952615}
   golfClub: {fileID: 1097744605}
   screenFade: {fileID: 933285301}
+--- !u!1 &1617929402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 780792325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1617929406
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617929402}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979514
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597028, z: 0.00038321342}
+--- !u!114 &1617929407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617929402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!1 &1630082047
 GameObject:
   m_ObjectHideFlags: 0
@@ -22507,6 +22977,50 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1651454361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 320234859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1651454365
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651454361}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.097951
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.55970275, z: 0.0003832134}
+--- !u!114 &1651454366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651454361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
 --- !u!136 &1653329742 stripped
 CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 792158973571388365, guid: 8b9d84dc911548d40af8082095b31ac8, type: 3}
@@ -25339,6 +25853,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 877493169}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482715988}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482715987}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1101635456}
@@ -25607,6 +26127,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 28669553}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 440130283}
+    - targetCorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 440130282}
     - targetCorrespondingSourceObject: {fileID: 6244861265678988312, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2038835111}
@@ -26443,6 +26969,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: 660864af38444ce48ae7dc9e477fde96, type: 3}
   m_PrefabInstance: {fileID: 1931106123}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1933851990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 816059010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1933851994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933851990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &1933851995
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933851990}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979505
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5596722, z: 0.0003832134}
 --- !u!1001 &1934686891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26642,6 +27212,50 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937014268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!1 &1940086982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 463664342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1940086986
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940086982}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.097951
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.55970275, z: 0.0003832134}
+--- !u!114 &1940086987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940086982}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
@@ -29025,6 +29639,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5365462034429858777, guid: c0fd6c3bffcbb15418a80b342defd6a9, type: 3}
+--- !u!1 &2145166839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384122935502128155, guid: 7d49a6c4d8c4aaf47a15a7587e7b4f63, type: 3}
+  m_PrefabInstance: {fileID: 193124134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2145166843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145166839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7cb69def374f14dbcdfd9f25612117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerResetOnTouch
+  player: {fileID: 1631430527}
+  golfBall: {fileID: 598952615}
+  golfClub: {fileID: 1097744605}
+  screenFade: {fileID: 933285301}
+--- !u!136 &2145166844
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145166839}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.23960343
+  m_Height: 4.0979505
+  m_Direction: 1
+  m_Center: {x: -0.003797891, y: -0.5597027, z: 0.0003832134}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
